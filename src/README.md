@@ -43,7 +43,7 @@ Here are the descriptions of the command line arguments:
 
 ## Evaluation
 The performance of the model can be evaluated using MAPE. To calculate MAPE, the following formula can be used:
-<img src="https://render.githubusercontent.com/render/math?math=MAPE = \frac{1}{n}*\sum_{t=0}^n(\lvert \frac{y-\hat{y}}{y}\rvert)">
+$$ MAPE = \frac{1}{n}*\sum_{t=0}^n(\lvert \frac{y-\hat{y}}{y}\rvert) $$
 Where ***n*** is the number of samples, $y$ is the true like count, and $\hat{y}$ is the prediceted like count.
 ## Result
 After training the model, the predicted like count for each post will be outputted to a CSV file named ***'result.csv'***.
