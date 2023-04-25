@@ -43,7 +43,6 @@ Here are the descriptions of the command line arguments:
 
 ## Evaluation
 The performance of the model can be evaluated using MAPE. To calculate MAPE, the following formula can be used:
-
 $$ MAPE = \frac{1}{n}*\sum_{t=0}^n(\lvert \frac{y-\hat{y}}{y}\rvert) $$
 Where ***n*** is the number of samples, $y$ is the true like count, and $\hat{y}$ is the prediceted like count.
 ## Result
